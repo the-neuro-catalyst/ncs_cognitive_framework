@@ -17,8 +17,8 @@
 
 **Chat Logs:**
 
-- [Operation Demo Concept](test_logs/chat/operational_demo_concept.md)
-- [Chat Log 1](test_logs/chat/ncc_zer0_chat_log.txt)
+- [Operation Demo Concept](OVERVIEW.md)
+- [Chat Log 1](DEMO_CONCEPT.md)
 
 **Unit Tests:**
 
