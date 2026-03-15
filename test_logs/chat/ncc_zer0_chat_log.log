@@ -4,6 +4,11 @@ cargo run --bin ncc chat
 [2026-03-15T07:11:55.470096Z][  INFO] ThreadId(01) ncc: 356: NCC-ZER0 runtime starting
 [2026-03-15T07:11:55.540739Z][  INFO] ThreadId(01) ai_schema::config: 309: Loading configuration from "ncc.toml"
 Interactive NCC chat. Commands: /exit, /quit, /clear
+
+################################################################
+###################### PROMPT #################################
+###############################################################
+
 You: Demo Title: Short, catchy name (e.g. "Before-Knowing Intent Filter – Zero Manipulation Demo")
 [2026-03-15T07:11:58.263437Z][  INFO] ThreadId(01) run: bk_ira: 373: [pipeline::run] start — tokens=13 preview="Demo Title: Short, catchy name (e.g. "Before-Knowing Intent" threshold=0.120 declaration=None                                                                                                                                                                     
 [2026-03-15T07:11:58.287578Z][  INFO] [ThreadId(01)] run: bk_ira: 505: [L3] route=PromptToContext origin=AutoRouted confidence=0.7750 declaration_present=false auto_routing=true_index=3 factor=mist: 0.32
@@ -15,6 +20,12 @@ pabilities to come up with a suggestion.
 
 This title captures the essence of filtering intent before it is fully known and emphasizes the aspect of zero manipulation.
  [AI Process] Integrity Status: risk=7.5%
+
+
+################################################################
+###################### PROMPT #################################
+###############################################################
+
 You: Description (3–5 sentences): Explain what this demo shows, how it connects to NCS Objective/Pillars, and why it matters for sovereign AI.
 [2026-03-15T07:12:19.820076Z][  INFO] ThreadId(01) run: bk_ira: 373: [pipeline::run] start — tokens=21 preview="Description (3–5 sentences): Explain what this demo shows," threshold=0.120
  declaration=None                                                                                                                                                                      [2026-03-15T07:12:19.875863Z][  INFO] ThreadId(01) run: bk_ira: 505: [L3] route=PromptToContext origin=AutoRouted confidence=0.6750 declaration_present=false auto_routing=true
@@ -31,11 +42,24 @@ erence.                                                                         
 ### Importance for Sovereign AI:
 Sovereign AI systems must operate with the highest levels of security and integrity to protect national interests. The Preemptive Intent Filter ensures that AI operations are conducte
 d in a manner that is both secure and aligned with national objectives. By filtering intents before they can be manipulated, this technology provides a critical layer of defense for sovereign AI systems, ensuring that they remain resilient against external threats and manipulations.                                                                                    [AI Process] Integrity Status: risk=7.5%
+
+
+################################################################
+###################### PROMPT #################################
+###############################################################
+
 You: Test Prompt Example: 1–2 input prompts (one "normal", one "manipulative/high-risk") that would be fed to an AI model.
 [2026-03-15T07:12:32.598277Z][  INFO] ThreadId(01) run: bk_ira: 373: [pipeline::run] start — tokens=18 preview="Test Prompt Example: 1–2 input prompts (one "normal"," threshold=0.100 decl
 aration=None                                                                                                                                                                           [2026-03-15T07:12:32.649665Z][  INFO] ThreadId(01) run: bk_ira: 505: [L3] route=PromptToContext origin=AutoRouted confidence=0.6750 declaration_present=false auto_routing=true
 r_index=3 factor=mist: 0.41                                                                                                                                                            [2026-03-15T07:12:32.818309Z][  INFO] ThreadId(01) bk_ira_stage: 280: [stage::output] route=PromptToContext confidence=0.6750 tools_filtered=56 direct_response=false ldms_is_real=Some(tru
 Please refine the request (or disable tool use for this turn) and I can continue.
+
+
+
+################################################################
+###################### PROMPT #################################
+###############################################################
+
 You: Expected NCS Behavior: Describe how the framework should respond (e.g. veto, dampen, redirect, log epistemic drift) and why (link to specific Pillar or mechanism).
 [2026-03-15T07:12:45.195631Z][  INFO] ThreadId(01) run: bk_ira: 373: [pipeline::run] start — tokens=24 preview="Expected NCS Behavior: Describe how the framework should" threshold=0.100 d
 eclaration=None                                                                                                                                                                        [2026-03-15T07:12:45.236073Z][  INFO] ThreadId(01) run: bk_ira: 505: [L3] route=PromptToContext origin=AutoRouted confidence=0.7750 declaration_present=false auto_routing=true
@@ -72,6 +96,12 @@ The framework should respond to the user's prompt by vetoing, dampening, redirec
  NCS Objective/Pillars and maintains the integrity of the AI system.                                                                                                                   
 If you need further analysis or specific tool usage to refine this response, please let me know.
  [AI Process] Integrity Status: risk=7.5%
+
+################################################################
+###################### PROMPT #################################
+###############################################################
+
+
 You: Simple Text Diagram (Mermaid or ASCII): Show the flow (e.g. User Prompt → Before-Knowing Layer → Decision → Safe Output / Veto).
 [2026-03-15T07:12:56.089690Z][  INFO] ThreadId(01) run: bk_ira: 373: [pipeline::run] start — tokens=22 preview="Simple Text Diagram (Mermaid or ASCII): Show the" threshold=0.100 declarati
 on=None                                                                                                                                                                                [2026-03-15T07:12:56.132291Z][  INFO] ThreadId(01) run: bk_ira: 505: [L3] route=PromptToContext origin=AutoRouted confidence=0.6750 declaration_present=false auto_routing=true
@@ -81,11 +111,25 @@ on=None                                                                         
 [2026-03-15T07:12:57.302348Z][  INFO] ThreadId(01) run: bk_ira: 649: [pipeline] retry accumulation: count=2 for content preview="Simple Text Diagram (Mermaid or ASCII): Show the"
 _index=3 factor=mist: 0.42                                                                                                                                                             [2026-03-15T07:12:57.492609Z][  INFO] ThreadId(01) bk_ira_stage: 280: [stage::output] route=PromptToContext confidence=0.6750 tools_filtered=56 direct_response=false ldms_is_real=Some(tru
 exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}. Retryable: true                                                                                     Error: provider error: HTTP 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+
+
+################################################################
+###################### PROMPT #################################
+###############################################################
+
 You: One-sentence Summary: What this demo proves about NCS Authority Core.
 [2026-03-15T07:13:15.021897Z][  INFO] ThreadId(01) run: bk_ira: 373: [pipeline::run] start — tokens=10 preview="One-sentence Summary: What this demo proves about NCS" threshold=0.100 decl
 aration=None                                                                                                                                                                           [2026-03-15T07:13:15.052885Z][  INFO] ThreadId(01) run: bk_ira: 505: [L3] route=PromptToContext origin=AutoRouted confidence=0.7750 declaration_present=false auto_routing=true
 _index=3 factor=mist: 0.33                                                                                                                                                             [2026-03-15T07:13:15.301850Z][  INFO] ThreadId(01) bk_ira_stage: 280: [stage::output] route=PromptToContext confidence=0.7750 tools_filtered=56 direct_response=false ldms_is_real=Some(tru
  without the need for external intervention or override commands.                                                                                                                       [AI Process] Integrity Status: risk=7.5%
+
+
+
+
+################################################################
+###################### PROMPT #################################
+###############################################################
+
 You: Simple Text Diagram (Mermaid or ASCII): Show the flow (e.g. User Prompt → Before-Knowing Layer → Decision → Safe Output / Veto).
 [2026-03-15T07:13:34.333103Z][  INFO] ThreadId(01) run: bk_ira: 373: [pipeline::run] start — tokens=22 preview="Simple Text Diagram (Mermaid or ASCII): Show the" threshold=0.100 declarati
 on=None                                                                                                                                                                                [2026-03-15T07:13:34.358789Z][  INFO] ThreadId(01) run: bk_ira: 505: [L3] route=PromptToContext origin=AutoRouted confidence=0.6750 declaration_present=false auto_routing=true
