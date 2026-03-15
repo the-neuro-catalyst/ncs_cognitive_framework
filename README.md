@@ -4,7 +4,7 @@
 
 ---
 
-**[VERIFICATION REPORT](docs/NCC_ZER0_Test_Verification_Report.docx)**
+**[VERIFICATION REPORT](docs/NCC_ZER0_Test_Verification_Report.pdf)**
 
 **[MINIMAL GOVERNANCE EXAMPLE](docs/NCSC_MINIMAL_EXAMPLE.pdf)**
 
