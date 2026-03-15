@@ -4,21 +4,31 @@
 
 ---
 
+## COMPENDIUM
 **[VERIFICATION REPORT](docs/NCC_ZER0_Test_Verification_Report.pdf)**
 
 **[MINIMAL GOVERNANCE EXAMPLE](docs/NCSC_MINIMAL_EXAMPLE.pdf)**
 
+**[NCC-ZER0 Sovereign Toolset Inventory](docs/ncc_zer0_sovereign_toolset_inventory.md)**
+
+---
+
 ## EXECUTION LOGS
+
+**Chat Logs:**
+
+- [Operation Demo Concept](test_logs/chat/operational_demo_concept.md)
+- [Chat Log 1](test_logs/chat/ncc_zer0_chat_log.txt)
 
 **Unit Tests:**
 
-- [Unit Tests 1](test_logs/ncc_zer0_nextest_lib_1.txt)
-- [Unit Tests 2](test_logs/ncc_zer0_nextest_lib_2.txt)
-- [Unit Tests 3](test_logs/ncc_zer0_nextest_lib_3.txt)
-- [Unit Tests 4](test_logs/ncc_zer0_nextest_lib_4.txt)
-- [Unit Tests 5](test_logs/ncc_zer0_nextest_lib_5.txt)
-- [Unit Tests 6](test_logs/ncc_zer0_nextest_lib_6.txt)
-- [Unit Tests 7](test_logs/ncc_zer0_nextest_lib_7.txt)
+- [Unit Tests 1](test_logs/unit_tests/ncc_zer0_nextest_lib_1.txt)
+- [Unit Tests 2](test_logs/unit_tests/ncc_zer0_nextest_lib_2.txt)
+- [Unit Tests 3](test_logs/unit_tests/ncc_zer0_nextest_lib_3.txt)
+- [Unit Tests 4](test_logs/unit_tests/ncc_zer0_nextest_lib_4.txt)
+- [Unit Tests 5](test_logs/unit_tests/ncc_zer0_nextest_lib_5.txt)
+- [Unit Tests 6](test_logs/unit_tests/ncc_zer0_nextest_lib_6.txt)
+- [Unit Tests 7](test_logs/unit_tests/ncc_zer0_nextest_lib_7.txt)
 
 ---
 
