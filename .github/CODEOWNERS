@@ -1,0 +1,9 @@
+# Global default owner
+* @the-neuro-catalyst
+
+# CI and repository policy
+/.github/ @the-neuro-catalyst
+
+# Documentation and policy
+/docs/ @the-neuro-catalyst
+/SECURITY.md @the-neuro-catalyst

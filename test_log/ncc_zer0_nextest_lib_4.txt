@@ -1,0 +1,36 @@
+    Finished `release` profile [optimized] target(s) in 0.19s
+────────────
+ Nextest run ID c44b0372-dc7a-4455-afee-cd92824e649b with nextest profile: default
+    Starting 30 tests across 2 binaries
+        PASS [   0.019s] ( 1/30)    
+        PASS [   0.020s] ( 2/30)    
+        PASS [   0.020s] ( 3/30)    
+        PASS [   0.020s] ( 4/30)    
+        PASS [   0.020s] ( 5/30)    
+        PASS [   0.005s] ( 6/30)    
+        PASS [   0.004s] ( 7/30)    
+        PASS [   0.005s] ( 8/30)    
+        PASS [   0.004s] ( 9/30)    
+        PASS [   0.004s] (10/30)    
+        PASS [   0.004s] (11/30)    
+        PASS [   0.004s] (12/30)    
+        PASS [   0.005s] (13/30)    
+        PASS [   0.005s] (14/30)    
+        PASS [   0.004s] (15/30)    
+        PASS [   0.004s] (16/30)    
+        PASS [   0.004s] (17/30)    
+        PASS [   0.004s] (18/30)    
+        PASS [   0.004s] (19/30)    
+        PASS [   0.004s] (20/30)    
+        PASS [   0.004s] (21/30)    
+        PASS [   0.004s] (22/30)    
+        PASS [   0.004s] (23/30)    
+        PASS [   0.004s] (24/30)    
+        PASS [   0.004s] (25/30)    
+        PASS [   0.004s] (26/30)    
+        PASS [   0.065s] (27/30)    
+        PASS [   0.029s] (28/30)    
+        PASS [   0.053s] (29/30)    
+        PASS [   0.059s] (30/30)    
+────────────
+     Summary [   0.080s] 30 tests run: 30 passed, 0 skipped
